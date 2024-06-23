@@ -1,5 +1,11 @@
 # Домашнее задание к занятию «Управление доступом» `Горбачёв Олег`
 
+ Инструменты / дополнительные материалы, которые пригодятся для выполнения задания
+ 1. [Описание](https://kubernetes.io/docs/reference/access-authn-authz/rbac/) RBAC.
+ 2. [Пользователи и авторизация RBAC в Kubernetes](https://habr.com/ru/company/flant/blog/470503/).
+ 3. [RBAC with Kubernetes in Minikube](https://medium.com/@HoussemDellai/rbac-with-kubernetes-in-minikube-4deed658ea7b).
+ 
+------
 ### Задание 1. Создайте конфигурацию для подключения пользователя
 
 1. Создайте и подпишите SSL-сертификат для подключения к кластеру.
@@ -80,8 +86,8 @@
 
 Согласно манифесту роли и ее привязке к Namespace, у пользователя `staff` есть доступ подам, их логам и описанию.
 
-5. Ссылка на манифест Deployment - https://github.com/DemoniumBlack/fedorchukds-devops-33-44/blob/main/SRC/deployment.yaml
+5. Ссылка на манифест Deployment - https://github.com/RikLedger/12-Kubernetes-09-hw/blob/main/SRC/deployment.yaml
 
-   Ссылка на манифест Role - https://github.com/DemoniumBlack/fedorchukds-devops-33-44/blob/main/SRC/role.yaml
+   Ссылка на манифест Role - https://github.com/RikLedger/12-Kubernetes-09-hw/blob/main/SRC/role.yaml
 
-   Ссылка на манифест RoleBinding - https://github.com/DemoniumBlack/fedorchukds-devops-33-44/blob/main/SRC/rolebinding.yaml
+   Ссылка на манифест RoleBinding - https://github.com/RikLedger/12-Kubernetes-09-hw/blob/main/SRC/rolebinding.yaml
